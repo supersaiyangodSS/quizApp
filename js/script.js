@@ -1,28 +1,85 @@
 let questions = [
     {
-        'question': 'which of the follwing is the web browser?',
-        'a': 'Facebook',
-        'b': 'Instagram',
-        'c': 'Brave',
-        'd': 'YouTube',
-        'answer': 'c'
-    },
-    {
-        'question': 'Which of the following is the programming language?',
-        'a': 'HTML',
-        'b': 'CSS',
-        'c': 'JSON',
-        'd': 'Rust',
-        'answer': 'd'
-    },
-    {
-        'question': 'How to define variable in javascript?',
-        'a': 'var variableName;',
-        'b': '$variableName;',
-        'c': 'int variableName;',
-        'd': 'variableName;',
-        'answer': 'a'
-    }
+    question: "What is the name of the world's largest reef system?",
+    a: "Great Barrier Reef",
+    b: "Coral Triangle",
+    c: "Belize Barrier Reef",
+    d: "Mesoamerican Reef",
+    answer: "a",
+  },
+  {
+    question: "What is the world's largest landlocked country?",
+    a: "Kazakhstan",
+    b: "Mongolia",
+    c: "Paraguay",
+    d: "Bolivia",
+    answer: "a",
+  },
+  {
+    question: "Who discovered penicillin?",
+    a: "Alexander Fleming",
+    b: "Marie Curie",
+    c: "Louis Pasteur",
+    d: "Albert Einstein",
+    answer: "a",
+  },
+  {
+    question: "What is the capital of Brazil?",
+    a: "São Paulo",
+    b: "Rio de Janeiro",
+    c: "Brasília",
+    d: "Salvador",
+    answer: "c",
+  },
+  {
+    question: "What is the smallest planet in our solar system?",
+    a: "Mars",
+    b: "Mercury",
+    c: "Venus",
+    d: "Neptune",
+    answer: "b",
+  },
+  {
+    question:
+      "What is the name of the fictional detective created by Arthur Conan Doyle?",
+    a: "Hercule Poirot",
+    b: "Sam Spade",
+    c: "Sherlock Holmes",
+    d: "Philip Marlowe",
+    answer: "c",
+  },
+  {
+    question: "What is the largest country in Africa?",
+    a: "South Africa",
+    b: "Nigeria",
+    c: "Egypt",
+    d: "Algeria",
+    answer: "d",
+  },
+  {
+    question: "What is the name of the highest peak in North America?",
+    a: "Mount Denali",
+    b: "Mount Rainier",
+    c: "Mount Whitney",
+    d: "Mount Shasta",
+    answer: "a",
+  },
+  {
+    question: "What is the name of the longest river in South America?",
+    a: "Amazon River",
+    b: "Orinoco River",
+    c: "Paraguay River",
+    d: "Magdalena River",
+    answer: "a",
+  },
+  {
+    question: "Who is the author of the Harry Potter series?",
+    a: "J.K. Rowling",
+    b: "Stephenie Meyer",
+    c: "Suzanne Collins",
+    d: "George R.R. Martin",
+    answer: "a",
+  }
 ];
 
 var index = 0;
